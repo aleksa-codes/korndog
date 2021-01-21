@@ -38,17 +38,12 @@ export default function Home() {
             </div>
           </nav>
           <div className={styles.logo}>
-            <Image
-              src="kd1.png"
-              alt="Picture of hot dog"
-              width={165}
-              height={165}
-            />
+            <Image src="/kd1.png" alt="Logo" width={165} height={165} />
           </div>
           <h1 className={styles.title}>Nešto što još niste probali kod Nas!</h1>
           <div className={styles.virsla}>
             <Image
-              src="virsla.png"
+              src="/virsla.png"
               alt="Picture of hot dog"
               width={250}
               height={250}
