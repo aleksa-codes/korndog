@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>KornDog Belgrade</title>
+        <title>KornDog - Beograd</title>
+
         <link
           rel="icon"
           type="image/svg+xml"
@@ -17,6 +18,33 @@ export default function Home() {
 
       <div className={styles.whiteground}>
         <main className={styles.main}>
+          <nav className={styles.topnav}>
+            <div>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+              <Link href="/menu">
+                <a>Menu</a>
+              </Link>
+            </div>
+
+            <div>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </div>
+          </nav>
+          <div className={styles.logo}>
+            <Image
+              src="/images/kd1.png"
+              alt="Picture of hot dog"
+              width={165}
+              height={165}
+            />
+          </div>
           <h1 className={styles.title}>Nešto što još niste probali kod Nas!</h1>
           <div className={styles.virsla}>
             <Image
@@ -40,7 +68,7 @@ export default function Home() {
             <a> Contact</a>
           </Link>
           {'•'}
-          <Link href="/acout">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </nav>
@@ -50,15 +78,14 @@ export default function Home() {
           <a href="mailto:">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-mail"
               width="44"
               height="44"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="#ffffff"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -68,15 +95,14 @@ export default function Home() {
           <a href="https://www.instagram.com/korndogbg/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-instagram"
               width="44"
               height="44"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="#ffffff"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <rect x="4" y="4" width="16" height="16" rx="4" />

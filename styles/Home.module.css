@@ -51,9 +51,10 @@
 
 .whiteground {
   background-color: #ffffff;
-  height: 100vh;
+  height: 100%;
   width: 96%;
   margin-top: 2rem;
+  padding: 0 40px;
 }
 
 .footnav {
@@ -130,4 +131,35 @@
 
 .virsla:hover {
   transform: translateY(-15px);
+}
+
+.topnav {
+  position: absolute;
+  width: 100%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  top: 130px;
+}
+
+.topnav div {
+  margin: 0 100px;
+}
+
+.topnav a {
+  margin: 0 16px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.logo {
+  padding-bottom: 24px;
+}
+
+.logo:hover {
+  scale: 1.1;
 }
