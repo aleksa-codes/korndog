@@ -37,6 +37,7 @@ export default function Menu() {
                 height="165"
               />
             </div>
+            <h1 className={styles.title}>Menu</h1>
           </main>
         </div>
         <footer className={styles.footer}>

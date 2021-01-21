@@ -62,7 +62,6 @@
   font-weight: 700;
   font-size: 3rem;
   text-transform: uppercase;
-  width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -72,6 +71,7 @@
 
 .footnav a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 8px;
 }
 
 .footnav a:hover {
@@ -162,4 +162,13 @@
 
 .logo:hover {
   scale: 1.1;
+}
+
+@media (max-width: 860px) {
+  .topnav {
+    display: none !important;
+  }
+  .logo {
+    align-self: start;
+  }
 }

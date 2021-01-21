@@ -37,6 +37,7 @@ export default function About() {
                 height="165"
               />
             </div>
+            <h1 className={styles.title}>About</h1>
           </main>
         </div>
         <footer className={styles.footer}>

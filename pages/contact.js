@@ -38,6 +38,7 @@ export default function Contact() {
                 height="165"
               />
             </div>
+            <h1 className={styles.title}>Contact us</h1>
           </main>
         </div>
         <footer className={styles.footer}>

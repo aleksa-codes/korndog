@@ -44,6 +44,7 @@ export default function Home() {
               height="165"
             />
           </div>
+
           <h1 className={styles.title}>Nešto što još niste probali kod Nas!</h1>
           <div className={styles.virsla}>
             <img
