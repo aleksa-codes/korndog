@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import styles from '../styles/Home.module.css';
 
@@ -30,6 +31,9 @@ export default function Contact() {
                 </Link>
               </div>
             </nav>
+            <div className={styles.logo}>
+              <Image src="/kd1.png" alt="Logo" width={165} height={165} />
+            </div>
           </main>
         </div>
         <footer className={styles.footer}>
