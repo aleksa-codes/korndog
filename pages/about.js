@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
-
 import styles from '../styles/Home.module.css';
 
 export default function About() {
@@ -32,11 +30,11 @@ export default function About() {
               </div>
             </nav>
             <div className={styles.logo}>
-              <Image
+              <img
                 src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/kd1_ibbwfy.png"
                 alt="Logo"
-                width={165}
-                height={165}
+                width="165"
+                height="165"
               />
             </div>
           </main>
