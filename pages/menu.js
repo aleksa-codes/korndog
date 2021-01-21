@@ -32,7 +32,12 @@ export default function Menu() {
               </div>
             </nav>
             <div className={styles.logo}>
-              <Image src="/kd1.png" alt="Logo" width={165} height={165} />
+              <Image
+                src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/kd1_ibbwfy.png"
+                alt="Logo"
+                width={165}
+                height={165}
+              />
             </div>
           </main>
         </div>

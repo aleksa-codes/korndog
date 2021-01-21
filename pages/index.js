@@ -38,12 +38,17 @@ export default function Home() {
             </div>
           </nav>
           <div className={styles.logo}>
-            <Image src="/kd1.png" alt="Logo" width={165} height={165} />
+            <Image
+              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/kd1_ibbwfy.png"
+              alt="Logo"
+              width={165}
+              height={165}
+            />
           </div>
           <h1 className={styles.title}>Nešto što još niste probali kod Nas!</h1>
           <div className={styles.virsla}>
             <Image
-              src="/virsla.png"
+              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/virsla_ffebtm.png"
               alt="Picture of hot dog"
               width={250}
               height={250}
