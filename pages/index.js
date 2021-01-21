@@ -48,7 +48,7 @@ export default function Home() {
           <h1 className={styles.title}>Nešto što još niste probali kod Nas!</h1>
           <div className={styles.virsla}>
             <img
-              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/virsla_ffebtm.png"
+              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611259325/giphy_sl6ky6.gif"
               alt="Picture of hot dog"
               width="250"
               height="250"
