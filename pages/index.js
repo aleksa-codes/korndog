@@ -4,9 +4,9 @@ import styles from '../styles/Home.module.css';
 
 const year = new Date().getFullYear();
 
-if (screen.width <= 860) {
-  document.querySelector('.burger').setAttribute('display', 'unset');
-}
+// if (screen.width <= 860) {
+//   document.querySelector('.burger').setAttribute('display', 'unset');
+// }
 
 export default function Home() {
   return (
