@@ -39,7 +39,7 @@ export default function Home() {
           </nav>
           <div className={styles.logo}>
             <img
-              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611248087/kd1_ibbwfy.png"
+              src="https://res.cloudinary.com/dgsozud9i/image/upload/v1611591271/kd1_f1ve4g.png"
               alt="Logo"
               width="165"
               height="165"
