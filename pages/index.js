@@ -2,21 +2,22 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
+const year = new Date().getFullYear();
+
+if (screen.width <= 860) {
+  document.querySelector('.burger').setAttribute('display', 'unset');
+}
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>KornDog - Beograd</title>
-
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23d04702%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2280%22>🌭</text></svg>"
-        />
       </Head>
 
       <div className={styles.whiteground}>
         <main className={styles.main}>
+          <div className={styles.burger}>Radi</div>
           <nav className={styles.topnav}>
             <div>
               <Link href="/">
@@ -121,7 +122,7 @@ export default function Home() {
           </a>
         </p>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          © 2021 KornDog
+          ©{year} KornDog
         </a>
       </footer>
     </div>
