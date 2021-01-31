@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <p>
           <a
-            href="https://api.whatsapp.com/send/?phone=381644754594&text=Svaka+Cast&app_absent=0&lang=en"
+            href="https://api.whatsapp.com/send/?phone=381642852961&text=Pozdrav+sa+sajta.&app_absent=0&lang=en"
             target="_blank"
             rel="noopener noreferrer"
           >
